@@ -1,5 +1,5 @@
 # web2025-D
-collection of web thingies i made
+collection of web thingies I made
 
 <h1> WELCOME TO MY PORTFOLIO!</h1>
 <ul> 
