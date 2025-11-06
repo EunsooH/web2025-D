@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  Eunsooie  </title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    
+</head>
+<body>
+    <h1> Hello kimchiesss </h1>
+    <h2> Imma be talking abt ☆ korea ☆ </h2>
+    <p>GUESS WAT IM <a href="https:www.google.com" target="_blank" onclick="alert('warnignigngingigiignigni ur going to a dif webside mwahahhaahah')">KOREAN</a> HEHE</p> 
+    <h2> lets play a game :p</h2>
+    <p> what is 5+6</p>
+    <button onclick="document.getElementById('add').innerHTML= 5+6">clicky here for the answer!!!</button>
+    <p id="add"> </p>
+    <h2> EYYYYYY WHATS MY FAV SPORT</h2>
+    <button onclick="getElementById('change-text').innerHTML= 'volleyballll'"> MWAHMWAH</button>
+    <p id="change-text" g>guess wat is is</p>
+<h2> wats da time broski</h2>
+<button onclick="getElementById('date').innerHTML=Date()"> clicky me broski for da time and date</button>
+<p id="date"></p>
+
+<p> volleyballll</p>
+<button onclick="pfun()"> click this button..... </button>
+<p id="p-fun"></p>
+<h2> bleh :p </h2>
+<button onclick="askName()">clicky here to tell me your name :D</button>
+<p id="ask-name"></p>
+
+<h2> KOREA HAS SUCH GOOD FOOOOD BROOOOOO </h2>
+<button onclick="askQuestion()">Clicky here for a question about korean food</button>
+<p id="question"></p>
+<script> 
+function pFun(){
+}
+function askName() {
+    var nameReturn = document.getElementById('ask-name');
+    var name = prompt('please enter your name broski in da box') 
+    if (name == '') {
+    alert('please try again');
+} else { 
+nameReturn.innerHTML= 'Hello ' + name + ' Nice to meet you';
+
+}
+}
+
+</script>
+    <script>
+    //alert("HELLOWW\nmeheheheh my name is bibimbap");
+    function pfun() { 
+    var p = document.getElementById('p-fun');
+    p.innerHTML="yay u did it"
+    p.style.color = "white";
+    p.style.fontSize = "30px";
+    }
+    </script>
+
+    
+  
+    
+</body>
+</html>

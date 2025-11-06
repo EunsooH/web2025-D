@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+body{
+    font-family: "Dongle",sans-serif;
+    font-size: large;
+}
+
+  body { 
+        background-color:rgb(255, 251, 246);
+      }
+
+      .container{
+        background-color:lightblue; 
+        margin: 0 auto;
+        border: 1px solid paleturquoise;
+        padding: 25px;
+      }
+      .nav {
+list-style: none;
+text-align: center;
+
+      }
+
+      .nav li {
+      display:inline; 
+     margin-right: 20px;
+     }
+
+     .copy {  
+      text-align: center;
+      background-color:rgb(249, 203, 210);
+
+    }
+    #kitty { 
+    font-size: large;
+    color: rgb(245, 239, 223);
+
+
+    }
+
+    #hairuoie { 
+    font-size: large;
+    color: coral;
+    }
+    
+
